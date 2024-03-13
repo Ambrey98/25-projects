@@ -1,0 +1,11 @@
+.btn--multi-selection {
+  display: flex;
+  margin: 10px auto;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn--multi-selection:hover {
+  background-color: darkgray;
+}

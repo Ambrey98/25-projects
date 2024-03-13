@@ -1,0 +1,57 @@
+.slider-container {
+  display: flex;
+
+  .img-container {
+    max-width: 750px;
+    max-height: 500px;
+    position: relative;
+
+    .displayed-img {
+      max-width: 750px;
+      max-height: 500px;
+    }
+
+    .btn {
+      position: absolute;
+      border: none;
+      width: 30px;
+      height: 30px;
+      border-radius: 30px;
+      top: 50%;
+      background-color: rgb(200, 195, 195);
+      cursor: pointer;
+
+      &:hover {
+        background-color: white;
+      }
+
+      &-left {
+        left: 10px;
+      }
+
+      &-right {
+        right: 10px;
+      }
+    }
+
+    .slider-container {
+      position: absolute;
+      bottom: 0.1%;
+    }
+
+    .slider-circle {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border-radius: 30px;
+    }
+
+    .inactive {
+      background-color: rgb(200, 195, 195);
+    }
+
+    .active {
+      background-color: white;
+    }
+  }
+}

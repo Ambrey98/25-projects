@@ -1,0 +1,44 @@
+.container {
+  &--light {
+    background-color: #fff;
+    transition: background-color 1s ease;
+  }
+
+  &--dark {
+    background-color: black;
+    transition: background-color 1s ease;
+  }
+
+  .text--light {
+    color: black;
+  }
+
+  .text--dark {
+    color: #fff;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(218, 205, 205);
+    cursor: pointer;
+  }
+
+  .btn--light {
+    background-color: black;
+    color: white;
+  }
+
+  .btn--light:hover {
+    background-color: rgb(47, 43, 43);
+  }
+
+  .btn--dark {
+    background-color: #fff;
+  }
+
+  .btn--dark:hover {
+    background-color: rgb(240, 237, 233);
+  }
+}
